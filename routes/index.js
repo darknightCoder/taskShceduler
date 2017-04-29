@@ -15,7 +15,7 @@ router.get('/tasks/all/', function(req, res, next) {
     res.send(allTasks);
 });
 router.post('/tasks/all/', function(req, res, next) {
-	var data = fs.readFileSync('../taskscheduler/data/taskList.json');
+	var data = fs.readFileSync('../data/taskList.json');
 	
 	var allTasks = data.toString();
 
