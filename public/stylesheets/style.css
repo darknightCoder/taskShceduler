@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font-family: 'Eagle Lake', cursive;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.heading {
+	font-size: 20px;
+}
+.chart{
+	    height: 300px;
+    margin-top: 30px;
+}
+.pull{
+	margin-bottom: 20px;
+}
